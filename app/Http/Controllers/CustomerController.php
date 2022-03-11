@@ -122,11 +122,11 @@ class CustomerController extends Controller
     {
         if ($id == -1)
         {
-            return \App\Models\customers::get()->toJson();
+            return \App\Models\Customer::get()->toJson();
         }
         else
         {
-            return customers::find($id)->toJson();
+            return Customer::find($id)->toJson();
         }
     }
 }
