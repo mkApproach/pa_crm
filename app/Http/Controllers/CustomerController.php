@@ -117,4 +117,16 @@ class CustomerController extends Controller
         $customer->delete();
         return redirect('/customers');
     }
+
+    public function json($id = -1)
+    {
+        if ($id == -1)
+        {
+            return \App\Models\customers::get()->toJson();
+        }
+        else
+        {
+            return customers::find($id)->toJson();
+        }
+    }
 }

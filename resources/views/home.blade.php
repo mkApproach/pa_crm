@@ -16,16 +16,16 @@
 
                         <ul>
                             @canany('viewAny', auth()->user())
-                                <li><a href="/users">社員一覧
+                                <li><a href="./users">社員一覧
                                     </a></li>
-                                 <li><a href="/users/create">　社員新規登録
+                                 <li><a href="./users/create">　社員新規登録
                                     </a></li>
                             @endcanany
-                            <li><a href="/roles">役職一覧</a></li>
-                            <li><a href="/roles/create">　役職新規登録</a></li>
-                            <li><a href="/customers">顧客一覧</a></li>
-                            <li><a href="/customers/create">　顧客新規登録</a></li>
-                            <li><a href="/customer_search">顧客検索</a></li>
+                            <li><a href="./roles">役職一覧</a></li>
+                            <li><a href="./roles/create">　役職新規登録</a></li>
+                            <li><a href="./customers">顧客一覧</a></li>
+                            <li><a href="./customers/create">　顧客新規登録</a></li>
+                            <li><a href="./customer_search">顧客検索</a></li>
                         </ul>
                     </div>
                 </div>
