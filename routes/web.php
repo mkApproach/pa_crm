@@ -20,6 +20,8 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 
 Route::get('/', 'TopPageController@top_page')->name('top');
+
+Route::get('/customers/json', 'CustomersController@json');
 /*
 Route::get('/', [App\Http\Controllers\TopPageController::class, 'top_page'])->name('top_page');
 */
