@@ -7,7 +7,7 @@
                     <div class="card-header">
                         <table width="100%">
                         <td style="text-align: left;">社員一覧</td>
-                        <td style="text-align: right;"><input type="button" onclick="location.href='/home'" value="ホーム"></td>
+                        <td style="text-align: right;"><input type="button" onclick="location.href='./home'" value="ホーム"></td>
                         </table>                  
                     </div>
                     <table width="100%" border="1">

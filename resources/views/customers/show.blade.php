@@ -7,7 +7,7 @@
                     <div class="card-header">
                     <table width="100%">
                     <td style="text-align: left;">顧客詳細</td>
-                    <td style="text-align: right;"><input type="button" onclick="location.href='/home'" value="ホーム"></td>
+                    <td style="text-align: right;"><input type="button" onclick="location.href='./home'" value="ホーム"></td>
                     </table>
                     </div>
                     <p><H4>{{ $customer->name }}({{ $customer->id }})</H4></p>

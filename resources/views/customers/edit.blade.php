@@ -8,9 +8,9 @@
                         <table width="100%">
                             <td style="text-align: left;">顧客　詳細　編集</td>
                             <td style="text-align: right;">
-                            <input type="button" onclick="location.href='/customers'" value="一覧へ">
+                            <input type="button" onclick="location.href='./customers'" value="一覧へ">
                             &nbsp;
-                            <input type="button" onclick="location.href='/home'" value="ホーム">
+                            <input type="button" onclick="location.href='./home'" value="ホーム">
                             </td>
                         </table>
                     </div>

@@ -7,7 +7,7 @@
                     <div class="card-header">
                     <table width="100%">
                     <td style="text-align: left;">顧客 一覧　画面</td>
-                    <td style="text-align: right;"><input type="button" onclick="location.href='/home'" value="ホーム"></td>
+                    <td style="text-align: right;"><input type="button" onclick="location.href='./home'" value="ホーム"></td>
                     </table>
                     
                     </div>
@@ -25,7 +25,7 @@
                         @foreach($customers as $customer)
                             <tr>
                                 <td>
-                                    <a href="/customers/{{ $customer->id }}">
+                                    <a href="./customers/{{ $customer->id }}">
                                         {{ $customer->name }}
                                     </a>
                                 </td>

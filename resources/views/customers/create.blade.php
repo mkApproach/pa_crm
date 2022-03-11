@@ -8,7 +8,7 @@
                     
                     <table width="100%">
                     <td style="text-align: left;">顧客新規登録</td>
-                    <td style="text-align: right;"><input type="button" onclick="location.href='/home'" value="ホーム"></td>
+                    <td style="text-align: right;"><input type="button" onclick="location.href='./home'" value="ホーム"></td>
                     </table>
                     </div>
                     <form action="/customers" method="POST">

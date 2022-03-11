@@ -8,7 +8,7 @@
                     <div class="card-header">
                     <table width="100%">
                     <td style="text-align: left;">検索条件は</td>
-                    <td style="text-align: right;"><input type="button" onclick="location.href='/home'" value="ホーム"></td>
+                    <td style="text-align: right;"><input type="button" onclick="location.href='./home'" value="ホーム"></td>
                     </table>                  
                     </div>
                     <div class="card-body">
@@ -60,7 +60,7 @@
                             <ul>
                                 @foreach($customers as $customer)
                                     <li>
-                                        <a href="/customers/{{$customer['id']}}">{{ $customer['name'] }}</a>
+                                        <a href="./customers/{{$customer['id']}}">{{ $customer['name'] }}</a>
                                     </li>
                                 @endforeach
                                 

@@ -19,7 +19,7 @@
                             <ul>
                                 @foreach($customers as $customer)
                                     <li>
-                                        <a href="/customers/{{$customer['id']}}">{{ $customer['name'] }}</a>
+                                        <a href="./customers/{{$customer['id']}}">{{ $customer['name'] }}</a>
                                     </li>
                                 @endforeach
                                 
