@@ -21,7 +21,7 @@
                                  <li><a href="./users/create">　社員新規登録
                                     </a></li>
                             @endcanany
-                            <li><a href="./roles">役職一覧</a></li>
+                            <li><a href="./roles">役職一覧(laravel)</a></li>
                             <li><a href="./roles/create">　役職新規登録</a></li>
                             <li><a href="./customers">顧客一覧</a></li>
                             <li><a href="./customers/create">　顧客新規登録</a></li>
